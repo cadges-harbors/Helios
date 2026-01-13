@@ -1,0 +1,24 @@
+{
+  "name": "helios",
+  "version": "1.0.6",
+  "private": true,
+  "type": "module",
+  "license": "MIT",
+  "dependencies": {
+    "@coinbase/onchainkit": "latest",
+    "viem": "latest",
+    "ethers": "latest",
+    "web3": "latest",
+    "axios": "latest",
+
+    "base-node": "github:base/node",
+    "base-web": "github:base/web",
+    "base-docs": "github:base/docs",
+    "base-smart-wallet": "github:base/smart-wallet",
+    "base-brand-kit": "github:base/brand-kit",
+
+    "coinbase-agentkit": "github:coinbase/agentkit",
+    "coinbase-x402": "github:coinbase/x402",
+    "coinbase-cdp-sdk": "github:coinbase/cdp-sdk"
+  }
+}
