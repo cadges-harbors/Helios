@@ -1,0 +1,48 @@
+{
+  "tool": "helios",
+  "snapshotVersion": "1.0",
+  "capturedAt": "2026-01-13T10:22:10+01:00",
+  "network": {
+    "key": "base-sepolia",
+    "chainId": 84532,
+    "rpc": "https://sepolia.base.org",
+    "explorer": "https://sepolia.basescan.org"
+  },
+  "chain": {
+    "latestBlockNumber": 12877421,
+    "latestBlockHash": "0x8f2e9d1a7c5f6b3d2c1e0f9a8b7c6d5e4f3a2b1c0d9e8f7a6b5c4d3e2f1a0b9c"
+  },
+  "probes": {
+    "addresses": {
+      "zero": {
+        "address": "0x0000000000000000000000000000000000000000",
+        "balanceWei": "0",
+        "code": "0x"
+      },
+      "burn": {
+        "address": "0x000000000000000000000000000000000000dEaD",
+        "balanceWei": "0",
+        "code": "0x"
+      },
+      "exampleEOA": {
+        "address": "0x1111111111111111111111111111111111111111",
+        "balanceWei": "0",
+        "code": "0x"
+      },
+      "exampleContract": {
+        "address": "0x2222222222222222222222222222222222222222",
+        "balanceWei": "0",
+        "code": "0x"
+      }
+    },
+    "checks": {
+      "rpcConnectivity": "ok",
+      "blockRecheckConsistency": "ok",
+      "explorerBaseUrl": "ok"
+    }
+  },
+  "notes": [
+    "Addresses are placeholders intended for repeatable read-only checks.",
+    "This snapshot is suitable for local comparisons and CI artifacts."
+  ]
+}
